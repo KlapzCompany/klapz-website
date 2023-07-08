@@ -1,6 +1,8 @@
 import { Box, IconButton, List, ListItem, Stack, Typography } from "@mui/material";
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 
+import { HashLink as Link } from "react-router-hash-link";
+
 import {ReactComponent as LinkedInIcon} from "../../assets/icons/linkedin-icon.svg";
 import {ReactComponent as InstagramIcon} from "../../assets/icons/instagram-icon.svg";
 
@@ -49,7 +51,7 @@ export const MobileMenu = ({visible, closeMenu, onScroll}) => {
                 </Box>
                 <List
                     sx={{
-                        width: 1,
+                        width: 'auto',
                         height: 1,
                         display: 'flex',
                         flexDirection: 'column',
@@ -57,9 +59,10 @@ export const MobileMenu = ({visible, closeMenu, onScroll}) => {
                         paddingTop: '48px',
                         justifyContent: 'flex-start',
                         '& li': {
-                            textAlign: 'center',
                             borderBottom: '3px solid transparent',
                             transition: 'all ease .5s',
+                            display: 'flex',
+                            justifyContent: 'center',
                             '&:hover': {
                                 transition: 'all ease .5s',
                                 borderBottom: '3px solid rgba(243,148,0, .5)',
@@ -68,45 +71,56 @@ export const MobileMenu = ({visible, closeMenu, onScroll}) => {
                         }
                     }}>
                     <ListItem>
+                    <Link to={'#home_hero'} smooth style={{textDecoration: 'none'}}>
                         <Typography
-                            component={'a'}
+                            textAlign={'center'}
                             variant={'link'}
                             whiteSpace={'nowrap'}
-                            color={'#FFF'}
-                            href={'#'}>Home</Typography>
-                    </ListItem>
-                    <ListItem>
+                            color={'#FFF'}>
+                                Home
+                        </Typography>
+                    </Link>
+                </ListItem>
+                <ListItem>
+                    <Link to={'#home_our_work'} smooth style={{textDecoration: 'none'}}>
                         <Typography
-                            component={'a'}
                             variant={'link'}
                             whiteSpace={'nowrap'}
-                            color={'#FFF'}
-                            href={'#'}>Our Work</Typography>
-                    </ListItem>
-                    <ListItem>
+                            color={'#FFF'}>
+                                Our Work
+                        </Typography>
+                    </Link>
+                </ListItem>
+                <ListItem>
+                    <Link to={'#home_about_us'} smooth style={{textDecoration: 'none'}}>
                         <Typography
-                            component={'a'}
                             variant={'link'}
                             whiteSpace={'nowrap'}
-                            color={'#FFF'}
-                            href={'#'}>About Us</Typography>
-                    </ListItem>
-                    <ListItem>
+                            color={'#FFF'}>
+                                About Us
+                        </Typography>
+                    </Link>
+                </ListItem>
+                <ListItem>
+                    <Link to={'#home_how_it_works'} smooth style={{textDecoration: 'none'}}>
                         <Typography
-                            component={'a'}
                             variant={'link'}
                             whiteSpace={'nowrap'}
-                            color={'#FFF'}
-                            href={'#'}>How It Works</Typography>
-                    </ListItem>
-                    <ListItem>
+                            color={'#FFF'}>
+                                How It Works
+                        </Typography>
+                    </Link>
+                </ListItem>
+                <ListItem>
+                    <Link to={'#home_contact'} smooth style={{textDecoration: 'none'}}>
                         <Typography
-                            component={'a'}
                             variant={'link'}
                             whiteSpace={'nowrap'}
-                            color={'#FFF'}
-                            href={'#'}>Contact</Typography>
-                    </ListItem>
+                            color={'#FFF'}>
+                                Contact
+                        </Typography>
+                    </Link>
+                </ListItem>
                 </List>
                 <Box
                     width={1}

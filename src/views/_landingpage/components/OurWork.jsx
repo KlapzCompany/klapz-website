@@ -9,6 +9,7 @@ export const OurWork = () => {
     return(
         <MainContainer>
             <Box
+                id={'home_our_work'}
                 width={1}
                 maxWidth={'1440px'}
                 padding={{xs: '16px', md: '48px 54px'}}
@@ -23,13 +24,14 @@ export const OurWork = () => {
                     <Typography sx={{typography: {xs: 'h5', md: 'h1'}}}>NUESTRO TRABAJO</Typography>
                 </Stack>
                 <Box
+                    overflow={'hidden'}
                     display={'flex'}
+                    minHeight={'100%'}
                     flexDirection={'column'}
                     gap={{xs: '24px', md: '48px'}}>
                     <Stack
                         width={1}
                         direction={{xs: 'column-reverse', md: 'row'}}
-                        maxHeight={{xs: '250px', md: '300px'}}
                         justifyContent={'space-between'}
                         gap={'24px'}>
                         <Box

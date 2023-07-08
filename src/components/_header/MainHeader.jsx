@@ -1,4 +1,6 @@
-import { Box, Button, IconButton, List, ListItem, Typography, useScrollTrigger } from "@mui/material"
+import { Box, Button, IconButton, List, ListItem, Typography, useScrollTrigger } from "@mui/material";
+
+import { HashLink as Link } from "react-router-hash-link";
 
 import { ReactComponent as MenuIcon } from "../../assets/icons/menu-icon.svg"
 
@@ -63,44 +65,54 @@ export const MainHeader = () => {
                     }
                 }}>
                 <ListItem>
-                    <Typography
-                        component={'a'}
-                        variant={'link'}
-                        whiteSpace={'nowrap'}
-                        color={'#FFF'}
-                        >Home</Typography>
+                    <Link to={'#home_hero'} smooth style={{textDecoration: 'none'}}>
+                        <Typography
+                            variant={'link'}
+                            whiteSpace={'nowrap'}
+                            color={'#FFF'}>
+                                Home
+                        </Typography>
+                    </Link>
                 </ListItem>
                 <ListItem>
-                    <Typography
-                        component={'a'}
-                        variant={'link'}
-                        whiteSpace={'nowrap'}
-                        color={'#FFF'}
-                        href={'#home_our_work'}>Our Work</Typography>
+                    <Link to={'#home_our_work'} smooth style={{textDecoration: 'none'}}>
+                        <Typography
+                            variant={'link'}
+                            whiteSpace={'nowrap'}
+                            color={'#FFF'}>
+                                Our Work
+                        </Typography>
+                    </Link>
                 </ListItem>
                 <ListItem>
-                    <Typography
-                        component={'a'}
-                        variant={'link'}
-                        whiteSpace={'nowrap'}
-                        color={'#FFF'}
-                        href={'#home_about_us'}>About Us</Typography>
+                    <Link to={'#home_about_us'} smooth style={{textDecoration: 'none'}}>
+                        <Typography
+                            variant={'link'}
+                            whiteSpace={'nowrap'}
+                            color={'#FFF'}>
+                                About Us
+                        </Typography>
+                    </Link>
                 </ListItem>
                 <ListItem>
-                    <Typography
-                        component={'a'}
-                        variant={'link'}
-                        whiteSpace={'nowrap'}
-                        color={'#FFF'}
-                        href={''}>How It Works</Typography>
+                    <Link to={'#home_how_it_works'} smooth style={{textDecoration: 'none'}}>
+                        <Typography
+                            variant={'link'}
+                            whiteSpace={'nowrap'}
+                            color={'#FFF'}>
+                                How It Works
+                        </Typography>
+                    </Link>
                 </ListItem>
                 <ListItem>
-                    <Typography
-                        component={'a'}
-                        variant={'link'}
-                        whiteSpace={'nowrap'}
-                        color={'#FFF'}
-                        href={'#home_contact'}>Contact</Typography>
+                    <Link to={'#home_contact'} smooth style={{textDecoration: 'none'}}>
+                        <Typography
+                            variant={'link'}
+                            whiteSpace={'nowrap'}
+                            color={'#FFF'}>
+                                Contact
+                        </Typography>
+                    </Link>
                 </ListItem>
             </List>
             <Box display={{xs: 'none', md: 'block'}}>
