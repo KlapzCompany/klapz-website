@@ -7,6 +7,7 @@ export const HomeHero = () => {
     return(
         <MainContainer>
             <Box
+                id={'home_hero'}
                 width={1}
                 maxWidth={'1440px'}
                 display={'flex'}
@@ -31,7 +32,9 @@ export const HomeHero = () => {
                         <Typography sx={{ typography: {xs: 'body1', md: 'h6'}}}>Bienvenidos a nuestra compañia, donde creamos soluciones tecnologicas para impulsar el futuro de tu negocio, descubre la innovacion tecnologica que cambiara tu vida.</Typography>
                         <Typography variant="body2" color={'rgba(255,255,255,.5)'}> Somos una empresa lider en el dsarrollo de productos y servicios tecnologicos revolucionarios que estan redefiniendo la forma en la que vivimos, trabajamos y nos conectamos. </Typography>
                     </Stack>
-                    <Button variant={'ctaMonoOut'} sx={{ width: {xs: '100%', md: 'auto'}}}>Agendar Llamada</Button>
+                    <Button variant={'ctaMonoOut'} sx={{ width: {xs: '100%', md: 'auto'}}}>
+                        <Typography component={'a'} color={'#FFF'} variant="link" href={'https://calendly.com/klapz-company/15min?month=2023-07'} target="_blank">Agendar Reunión</Typography>
+                    </Button>
                 </Box>
                 <Box
                     width={{xs: '250vw', md: 1}}

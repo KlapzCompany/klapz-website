@@ -5,6 +5,7 @@ export const Contact = () => {
     return(
         <MainContainer>
             <Box
+                id={'home_contact'}
                 width={1}
                 maxWidth={'1440px'}
                 padding={{xs: '32px 16px', md: '48px 54px'}}

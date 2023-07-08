@@ -43,7 +43,7 @@ export const HowItWorks = () => {
                         textAlign={'center'}
                         padding={'24px 16px'}>
                         <Typography variant={'h5'}>Llamada de Requerimientos</Typography>
-                        <Step1 />
+                        <Step1 color={'#00A6B8'} />
                         <Typography variant={'body1'}>Se agenda y se realiza una llamada donde se muestran los requerimientos de el proyecto y se agendan fechas.</Typography>
                     </Stack>
                     <Stack
@@ -58,7 +58,7 @@ export const HowItWorks = () => {
                         textAlign={'center'}
                         padding={'24px 16px'}>
                         <Typography variant={'h5'}>Presentacion de Propuestas</Typography>
-                        <Step2 />
+                        <Step2 color={'#00A6B8'} />
                         <Typography variant={'body1'}>Se agenda y se realiza una llamada donde se muestran los requerimientos de el proyecto y se agendan fechas.</Typography>
                     </Stack>
                     <Stack
@@ -73,7 +73,7 @@ export const HowItWorks = () => {
                         textAlign={'center'}
                         padding={'24px 16px'}>
                         <Typography variant={'h5'}>Propuestas de Diseños</Typography>
-                        <Step3 />
+                        <Step3 color={'#00A6B8'} />
                         <Typography variant={'body1'}>Se agenda y se realiza una llamada donde se muestran los requerimientos de el proyecto y se agendan fechas.</Typography>
                     </Stack>
                     <Stack
@@ -88,7 +88,7 @@ export const HowItWorks = () => {
                         textAlign={'center'}
                         padding={'24px 16px'}>
                         <Typography variant={'h5'}>Entrega de Proyectos</Typography>
-                        <Step4 />
+                        <Step4 color={'#00A6B8'} />
                         <Typography variant={'body1'}>Se agenda y se realiza una llamada donde se muestran los requerimientos de el proyecto y se agendan fechas.</Typography>
                     </Stack>
                 </Box>
