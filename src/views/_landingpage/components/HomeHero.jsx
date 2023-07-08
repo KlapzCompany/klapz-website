@@ -1,0 +1,47 @@
+import { Box, Button, Stack, Typography } from "@mui/material"
+import { MainContainer } from "../../../components/_container/MainContainer"
+
+import { ReactComponent as DottedMap } from "../../../assets/images/worldmap-dotted.svg";
+
+export const HomeHero = () => {
+    return(
+        <MainContainer>
+            <Box
+                width={1}
+                maxWidth={'1440px'}
+                display={'flex'}
+                flexDirection={{xs: 'column', md: 'row'}}
+                alignItems={'center'}
+                justifyContent={'space-between'}
+                position={'relative'}>
+                <Box
+                    width={'100%'}
+                    maxWidth={'600px'}
+                    display={'flex'}
+                    flexDirection={'column'}
+                    justifyContent={'center'}
+                    alignItems={'flex-start'}
+                    gap={'24px'}>
+                    <Typography
+                        sx={{
+                            typography: {xs: 'h2', md: 'h1'}
+                        }}>Klapz Company</Typography>
+                    <Stack
+                        spacing={'8px'}>
+                        <Typography sx={{ typography: {xs: 'body1', md: 'h6'}}}>Bienvenidos a nuestra compañia, donde creamos soluciones tecnologicas para impulsar el futuro de tu negocio, descubre la innovacion tecnologica que cambiara tu vida.</Typography>
+                        <Typography variant="body2" color={'rgba(255,255,255,.5)'}> Somos una empresa lider en el dsarrollo de productos y servicios tecnologicos revolucionarios que estan redefiniendo la forma en la que vivimos, trabajamos y nos conectamos. </Typography>
+                    </Stack>
+                    <Button variant={'ctaMonoOut'} sx={{ width: {xs: '100%', md: 'auto'}}}>Agendar Llamada</Button>
+                </Box>
+                <Box
+                    width={{xs: '250vw', md: 1}}
+                    position={{xs: 'absolute', md: 'relative'}}
+                    sx={{
+                        opacity: {xs: .3, md: 1}
+                    }}>
+                    <DottedMap color={'rgba(255,255,255,.2)'} />
+                </Box>
+            </Box>
+        </MainContainer>
+    )
+}
