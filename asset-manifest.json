@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/klapz-website/static/css/main.e776d2dc.css",
+    "main.js": "/klapz-website/static/js/main.2df15eba.js",
+    "static/media/web-development.png": "/klapz-website/static/media/web-development.efb4d5195186a4a4c9f8.png",
+    "static/media/app-development.png": "/klapz-website/static/media/app-development.f7effb16b3cc9e949415.png",
+    "static/media/about-us.png": "/klapz-website/static/media/about-us.98997cf4ed79a356b403.png",
+    "static/media/worldmap-dotted.svg": "/klapz-website/static/media/worldmap-dotted.b32c3b72cace3c05e046cbb1d5338c7f.svg",
+    "static/media/brand-logo-proposal-ai.svg": "/klapz-website/static/media/brand-logo-proposal-ai.eb8e6780c160472065f9cc332e63e33a.svg",
+    "static/media/brand-logo-thesaasco.svg": "/klapz-website/static/media/brand-logo-thesaasco.ec0f2c15e71017ff0a83e6b1e5528db0.svg",
+    "static/media/brand-logo-bytedance.svg": "/klapz-website/static/media/brand-logo-bytedance.cbb64b9e8f019c76d5c56caef321d275.svg",
+    "static/media/hit-step3.svg": "/klapz-website/static/media/hit-step3.8e06a26c13abd993030620dc9200d66f.svg",
+    "static/media/brand-logo-mipleis.svg": "/klapz-website/static/media/brand-logo-mipleis.ac7dc3b9dcf6be86a071ab8d5320357c.svg",
+    "static/media/klapz_new_logo.svg": "/klapz-website/static/media/klapz_new_logo.399fdad655eb1d2ecf056d840fa6980f.svg",
+    "static/media/hit-step4.svg": "/klapz-website/static/media/hit-step4.0df5fef09e087c8f9f30904e6aafcc59.svg",
+    "static/media/instagram-icon.svg": "/klapz-website/static/media/instagram-icon.8d383ab2c25d6b43ab1037f4a01aacc0.svg",
+    "static/media/hit-step2.svg": "/klapz-website/static/media/hit-step2.dd573e0e62b1ac286aaa49820dbf2bf8.svg",
+    "static/media/hit-step1.svg": "/klapz-website/static/media/hit-step1.27c78fa539ddf902295a5b3231210dfa.svg",
+    "static/media/linkedin-icon.svg": "/klapz-website/static/media/linkedin-icon.e81beafcb98e6ddd618ca6490b2a0a72.svg",
+    "static/media/menu-icon.svg": "/klapz-website/static/media/menu-icon.9bd35f24ab63e5903e892331eeee79c6.svg",
+    "index.html": "/klapz-website/index.html",
+    "main.e776d2dc.css.map": "/klapz-website/static/css/main.e776d2dc.css.map",
+    "main.2df15eba.js.map": "/klapz-website/static/js/main.2df15eba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e776d2dc.css",
+    "static/js/main.2df15eba.js"
+  ]
+}
