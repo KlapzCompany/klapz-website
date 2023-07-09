@@ -2,7 +2,7 @@
   "name": "klapz-landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/klapzcompany/klapz-website.git",
+  "homepage": "https://KlapzCompany.github.io/klapz-website.git",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
