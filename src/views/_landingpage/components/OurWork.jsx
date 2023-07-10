@@ -42,7 +42,7 @@ export const OurWork = () => {
                             flexDirection={'column'}
                             gap={'12px'}>
                             <Typography sx={{ typography: {xs: 'h6', md: 'h3'}}} textAlign={{xs: 'center', md: 'left'}}>Desarrollo Web</Typography>
-                            <Typography sx={{ typography: {xs: 'small', md: 'body1'}}} textAlign={{xs: 'center', md: 'left'}}>Nuestro equipo de expertos apasionados por la tecnologia se dedica a disenar y construir soluciones  innovadoras que abordan los desafios mas apremiantes de la actualidad. Ya sea que estemos creando dispositivos inteligentes, desarrollando software de vanguardia o impulsando avances en la inteligencia artificial, nuestro objetivos es mejorar la vida de las personas a travez de la tecnologia.</Typography>
+                            <Typography sx={{ typography: {xs: 'small', md: 'body1'}}} textAlign={{xs: 'center', md: 'left'}}>Nuestro equipo de expertos apasionados por la tecnología se dedica a disenar y construir soluciones  innovadoras que abordan los desafios mas apremiantes de la actualidad. Ya sea que estemos creando dispositivos inteligentes, desarrollando software de vanguardia o impulsando avances en la inteligencia artificial, nuestro objetivos es mejorar la vida de las personas a travez de la tecnologia.</Typography>
                         </Box>
                         <Box
                             width={{xs: 'auto', md: '100%'}}
@@ -84,7 +84,7 @@ export const OurWork = () => {
                             flexDirection={'column'}
                             gap={'12px'}>
                             <Typography sx={{ typography: {xs: 'h6', md: 'h3'}}} textAlign={{xs: 'center', md: 'left'}}>Desarrollo de Apps</Typography>
-                            <Typography sx={{ typography: {xs: 'small', md: 'body1'}}} textAlign={{xs: 'center', md: 'left'}}>Ademas, nos destacamospor nuestra atencion al detalle y nuestro compromiso con la calidad. Cada producto que desarrollamos se somete a rigurosas pruebas y evaluaciones para garantizar su funcionamiento optimo y durabilidad.</Typography>
+                            <Typography sx={{ typography: {xs: 'small', md: 'body1'}}} textAlign={{xs: 'center', md: 'left'}}>Además, nos destacamos por nuestra atención al detalle y nuestro compromiso con la calidad. Cada producto que desarrollamos se somete a rigurosas pruebas y evaluaciones para garantizar su funcionamiento optimo y durabilidad.</Typography>
                         </Box>
                     </Stack>
                 </Box>

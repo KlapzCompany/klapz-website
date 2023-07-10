@@ -23,7 +23,7 @@ export const HowItWorks = () => {
                     width={{xs: '100%', md: '80%'}}
                     spacing={'12px'}
                     textAlign={'center'}>
-                    <Typography sx={{typography: {xs: 'h5', md: 'h1'}}}>Como Trabajamos?</Typography>
+                    <Typography sx={{typography: {xs: 'h5', md: 'h1'}}}>¿Cómo Trabajamos?</Typography>
                     <Typography sx={{typography: {xs: 'body2', md: 'body1'}}}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, fugiat iste et officia laudantium praesentium voluptate. Nisi quae at consequuntur temporibus! Dignissimos itaque, vitae sed eligendi enim magni vero voluptas.</Typography>
                 </Stack>
                 <Box
@@ -42,9 +42,9 @@ export const HowItWorks = () => {
                         gap={'24px'}
                         textAlign={'center'}
                         padding={'24px 16px'}>
-                        <Typography variant={'h5'}>Llamada de Requerimientos</Typography>
+                        <Typography variant={'h5'}>Contacto inicial</Typography>
                         <Step1 color={'#00A6B8'} />
-                        <Typography variant={'body1'}>Se agenda y se realiza una llamada donde se muestran los requerimientos de el proyecto y se agendan fechas.</Typography>
+                        <Typography variant={'body1'}>Recopilación de datos por llamadas, correos electrónicos o visita personal.</Typography>
                     </Stack>
                     <Stack
                         width={'100%'}
@@ -57,9 +57,10 @@ export const HowItWorks = () => {
                         gap={'24px'}
                         textAlign={'center'}
                         padding={'24px 16px'}>
-                        <Typography variant={'h5'}>Presentacion de Propuestas</Typography>
+                        <Typography variant={'h5'}>Reunion de consulta y propuesta</Typography>
                         <Step2 color={'#00A6B8'} />
-                        <Typography variant={'body1'}>Se agenda y se realiza una llamada donde se muestran los requerimientos de el proyecto y se agendan fechas.</Typography>
+                        <Typography variant={'body1'}>Se discuten los objetivos del proyecto, los plazos, el presupuesto y el alcance que
+este tendra.</Typography>
                     </Stack>
                     <Stack
                         width={'100%'}
@@ -72,9 +73,11 @@ export const HowItWorks = () => {
                         gap={'24px'}
                         textAlign={'center'}
                         padding={'24px 16px'}>
-                        <Typography variant={'h5'}>Propuestas de Diseños</Typography>
+                        <Typography variant={'h5'}>Diseno y planificación</Typography>
                         <Step3 color={'#00A6B8'} />
-                        <Typography variant={'body1'}>Se agenda y se realiza una llamada donde se muestran los requerimientos de el proyecto y se agendan fechas.</Typography>
+                        <Typography variant={'body1'}>Se aperturan los requisitos tecnicos elaborando un plan de trabajo, se asignan los recursos necesarios,
+como personal, herramientas y equipo.
+</Typography>
                     </Stack>
                     <Stack
                         width={'100%'}
@@ -87,9 +90,10 @@ export const HowItWorks = () => {
                         gap={'24px'}
                         textAlign={'center'}
                         padding={'24px 16px'}>
-                        <Typography variant={'h5'}>Entrega de Proyectos</Typography>
+                        <Typography variant={'h5'}>Entrega y cierre</Typography>
                         <Step4 color={'#00A6B8'} />
-                        <Typography variant={'body1'}>Se agenda y se realiza una llamada donde se muestran los requerimientos de el proyecto y se agendan fechas.</Typography>
+                        <Typography variant={'body1'}>Se lleva a cabo una revisión conjunta del proyecto para evaluar su exito y se cierran los aspectos
+administrativos y financieros.</Typography>
                     </Stack>
                 </Box>
             </Box>

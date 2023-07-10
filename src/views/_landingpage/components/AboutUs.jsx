@@ -24,7 +24,7 @@ export const AboutUs = () => {
                 <Stack
                     width={1}
                     textAlign={'center'}>
-                    <Typography sx={{typography: {xs: 'h5', md: 'h1'}}}>Quienes Somos?</Typography>
+                    <Typography sx={{typography: {xs: 'h5', md: 'h1'}}}>¿Quiénes Somos?</Typography>
                 </Stack>
                 <Box
                     width={1}
@@ -48,8 +48,8 @@ export const AboutUs = () => {
                         display={'flex'}
                         flexDirection={'column'}
                         gap={'12px'}>
-                        <Typography sx={{ typography: {xs: 'h6', md: 'h3'}}} textAlign={{xs: 'center', md: 'left'}}>Web Development</Typography>
-                        <Typography sx={{ typography: {xs: 'small', md: 'body1'}}} textAlign={{xs: 'center', md: 'left'}}>Somos una cultura de colaboracion y nuestro enfoque esta centrado en nuestros clientes el cual trabajamos estrechamente para comprender sus necesidades y asi ofrecer soluciones personalizadas que se adapten perfectamente a sus requisitos.</Typography>
+                        <Typography sx={{ typography: {xs: 'h6', md: 'h3'}}} textAlign={{xs: 'center', md: 'left'}}></Typography>
+                        <Typography sx={{ typography: {xs: 'small', md: 'body1'}}} textAlign={{xs: 'center', md: 'left'}}>Somos una cultura de colaboración y nuestro enfoque esta centrado en nuestros clientes el cual trabajamos estrechamente para comprender sus necesidades y asi ofrecer soluciones personalizadas que se adapten perfectamente a sus requisitos.</Typography>
                     </Box>
                 </Box>
                 <Box

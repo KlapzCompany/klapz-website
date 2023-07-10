@@ -70,7 +70,7 @@ export const MainHeader = () => {
                             variant={'link'}
                             whiteSpace={'nowrap'}
                             color={'#FFF'}>
-                                Home
+                                Inicio
                         </Typography>
                     </Link>
                 </ListItem>
@@ -80,7 +80,7 @@ export const MainHeader = () => {
                             variant={'link'}
                             whiteSpace={'nowrap'}
                             color={'#FFF'}>
-                                Our Work
+                                Portafolio
                         </Typography>
                     </Link>
                 </ListItem>
@@ -90,7 +90,7 @@ export const MainHeader = () => {
                             variant={'link'}
                             whiteSpace={'nowrap'}
                             color={'#FFF'}>
-                                About Us
+                                Nosotros
                         </Typography>
                     </Link>
                 </ListItem>
@@ -100,7 +100,7 @@ export const MainHeader = () => {
                             variant={'link'}
                             whiteSpace={'nowrap'}
                             color={'#FFF'}>
-                                How It Works
+                                Cómo trabajamos
                         </Typography>
                     </Link>
                 </ListItem>
@@ -110,7 +110,7 @@ export const MainHeader = () => {
                             variant={'link'}
                             whiteSpace={'nowrap'}
                             color={'#FFF'}>
-                                Contact
+                                Contacto
                         </Typography>
                     </Link>
                 </ListItem>

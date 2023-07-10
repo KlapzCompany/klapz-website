@@ -19,7 +19,7 @@ export const Contact = () => {
                     spacing={'24px'}
                     textAlign={'center'}>
                     <Typography sx={{typography: {xs: 'h5', md: 'h1'}}}>Contáctanos</Typography>
-                    <Typography variant={'body1'}> Descubre como podemos transformar tu vida con nuestras soluciones tecnologicas de ultima generacion! contactanos hoy mismo para obtener mas informacion. </Typography>
+                    <Typography variant={'body1'}> Descubre como podemos transformar tu vida con nuestras soluciones tecnológicas de ultima generacion! contactanos hoy mismo para obtener mas información. </Typography>
                 </Stack>
                 <Button variant={'ctaGradientOut'} sx={{fontSize: {xs: '24px', md: '48px'}}}>Agendar Llamada</Button>
             </Box>
